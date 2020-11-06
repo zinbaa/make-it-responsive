@@ -9,7 +9,7 @@ html, body {
   background-color: white;
   overflow: hidden;
   border-bottom: 2px black solid;
-
+  z-index: -1;
 }
 
 /* Style the links inside the navigation bar */
