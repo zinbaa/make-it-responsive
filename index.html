@@ -22,10 +22,45 @@
   </a>
 </div>
 
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="publikum-2.jpg" style="width:100%; height:auto;">
+</div>
+
+<div class="mySlides fade">
+  <img src="resizeimage-2.jpg" style="width:100%; height:100%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="ignite.png" style="width:100%; height:100%;">
+</div>
+</div>
+
 <h1 id="forside-tittel">What is Inova?</h1>
 
 
+
+
+
+
 <script>
+  /* slideshowboks*/
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 3000); 
+}
+
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -36,10 +71,6 @@ function myFunction() {
   }
 }
 </script>
-
-
-
-
 
 </body>
 </html>
