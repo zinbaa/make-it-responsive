@@ -43,6 +43,12 @@ html, body {
   display: none;
 }
 
+.slideshow-container {
+  max-width: 100%;
+  margin-top: 0px;
+  
+}
+
 #forside-tittel {
   text-align: center;
 }
