@@ -10,6 +10,7 @@ html, body {
   background-color: white;
   overflow: hidden;
   border-bottom: 2px solid black;
+  z-index: 1;
 
 }
 
@@ -52,7 +53,12 @@ html, body {
   text-align: center;
 }
 
+<<<<<<< HEAD
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+=======
+/* When the screen is less than 600 pixels wide, hide all links, except for 
+the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+>>>>>>> 9cf3771caa4a64072b7ebbd37701a2da4a13cf61
 @media screen and (max-width: 600px) {
   .topnav a {display: none;}
   .topnav a.icon {
@@ -69,8 +75,7 @@ This class makes the topnav look good on small screens (display the links vertic
     position: absolute;
     right: 0;
     top: 0;
-
-
+    display: block;
   }
   .topnav.responsive a {
     float: none;
@@ -133,12 +138,76 @@ hr {
   font-size: 2rem;
 }
 
+<<<<<<< HEAD
+=======
+
+/*Our team*/
+hr{
+  width:40%;
+}
+
+#teamh1{
+  text-align: center;
+}
+
+.sectionHeader {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+>>>>>>> 9cf3771caa4a64072b7ebbd37701a2da4a13cf61
 .img-fluid {
   object-fit: cover;
   width: 250px;
   height: 250px;
   display: block;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
+=======
+}
+
+.center-img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.teamHeader {
+  padding: 5px 0;
+  opacity: 0.6;
+  color: var(--blue);
+  font-weight: 200;
+}
+
+.teamName {
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+.teamName::after {
+  content: ' ';
+  display: block;
+  width: 70px;
+  height: 1px;
+  margin: 10px 0 10px;
+  background: var(--blue);
+  opacity: 0.5;
+}
+
+
+
+/* FOOTER */
+.footer {
+background: #808080;
+color: white;
+height: 400px;
+position: relative;
+>>>>>>> 9cf3771caa4a64072b7ebbd37701a2da4a13cf61
 }
 
 .center-img {
