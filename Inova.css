@@ -153,9 +153,9 @@ hr {
 
 .teamHeader {
   padding: 5px 0;
-  opacity: 0.6;
-  color: var(--blue);
-  font-weight: 200;
+  opacity: 0.7;
+  color: #b366ff;
+  font-weight: 350;
 }
 
 .teamName {
@@ -178,16 +178,9 @@ hr {
   height:300px;
 }
 
-.mt-1 {
-  margin-top: 0.25rem !important;
-}
-
-.mt-4 {
-  margin-top: 1.5rem !important;
-}
 
 section {
-  padding-top: 86px;
+  padding-top: 20px;
 }
 
 h1,
@@ -229,15 +222,12 @@ body {
   align-items: center;
 }
 .container {
-  padding: 50px 50px;
+  padding: 20px 50px;
 }
 
 .row {
   padding: 20px 20px;
 }
-
-
-
 
 .font-weight-medium {
   font-weight: 500;
@@ -245,22 +235,25 @@ body {
 
 .col-sm-12
 .col-sm-6 {
-  padding: 10px 5px;
+  padding: 10px 170px;
 }
 
-.fade {
-  transition: all 0.5s ease-in;
-  transition-property: opacity, transform;
-}
-
-.fadeIn {
-  opacity: 1;
-  transform: translateY(0px);
-}
 .d-flex {
   display: flex;
 }
 
 .p-3 {
   padding: 1rem !important;
+}
+
+#meetTeamh1{
+  text-align: center;
+}
+
+#about-us{
+  width: 50%;
+  text-align: center
+}
+.container1{
+  margin-top: 0px;
 }
