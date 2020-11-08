@@ -108,7 +108,7 @@ This class makes the topnav look good on small screens (display the links vertic
 /* Schedule delen */
 
 .table1 {
-  width: 70%;
+  margin: auto;
 }
 
 .a {
@@ -136,7 +136,9 @@ This class makes the topnav look good on small screens (display the links vertic
 .skrifttype{
   font-family: "Times New Roman", Times, serif;
   width: 70%;
-  margin-left: 10px;
+  text-align: center;
+  margin: auto;
+
 }
 
 .bilde1 {
@@ -441,4 +443,3 @@ padding-bottom: 90px;
 }
 
 /* slutt på FOOTER*/
-
