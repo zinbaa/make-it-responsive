@@ -138,14 +138,18 @@ This class makes the topnav look good on small screens (display the links vertic
   width: 70%;
   text-align: center;
   margin: auto;
+  font-size: 2vw;
 
 }
 
-.bilde1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 0.6;
+
+@@media only screen and (min-width:769px) {
+  .schedule {
+    display: block;
+    width: 100%;
+
+  }
+
 }
 
 
