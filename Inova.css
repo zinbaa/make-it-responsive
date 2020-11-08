@@ -284,7 +284,7 @@ body {
   align-items: center;
 }
 
-#container {
+.container {
   padding: 50px 50px;
 }
 
@@ -341,10 +341,6 @@ body {
 
 .container{
   margin-top: -20px;
-}
-
-.container1{
-  margin-top: 20px;
 }
 
 
