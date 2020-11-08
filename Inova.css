@@ -5,19 +5,24 @@ html, body {
 
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: white;
-  overflow: hidden;
-  border-bottom: 2px solid black;
-
-}
-
 .logo {
   float: left;
   width: 200px;
   padding-bottom: 10px;
   padding-top: 5px;
+  padding:10px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border-bottom: 2px solid black;
+
 }
 
 /* Style the links inside the navigation bar */
@@ -26,7 +31,7 @@ html, body {
   display: block;
   color: black;
   text-align: center;
-  padding: 24px 17px;
+  padding: 26px 17px;
   text-decoration: none;
   font-size: 17px;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -43,6 +48,12 @@ html, body {
   display: none;
 }
 
+.slideshow-container {
+  max-width: 100%;
+  margin-top: 0px;
+
+}
+
 #forside-tittel {
   text-align: center;
 }
@@ -56,7 +67,7 @@ html, body {
   }
 }
 
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
 This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
@@ -64,7 +75,7 @@ This class makes the topnav look good on small screens (display the links vertic
     position: absolute;
     right: 0;
     top: 0;
-   
+
 
   }
   .topnav.responsive a {
@@ -73,27 +84,48 @@ This class makes the topnav look good on small screens (display the links vertic
     text-align: left;
   }
 
- 
+
 }
 
+/* Schedule delen */
 
+.table1 {
+  width: 70%;
+}
 
+.a {
+  height: 70px;
+  background-color: #F8F8FF;
+  opacity: 0.7;
 
+}
 
+.a1 {
+  height: 30px;
+  background-color: #E6E6FA;
+}
 
+.a2 {
+  height: 30px;
+}
+.a3 {
+  height: 30px;
+  background-color: #708090;
+}
 
+.a4 {
+  background-color: #D8BFD8;
+}
 
+.skrifttype{
+  font-family: "Times New Roman", Times, serif;
+  width: 70%;
+  margin-left: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bilde1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.6;
+}

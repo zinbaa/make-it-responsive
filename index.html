@@ -8,7 +8,7 @@
 </head>
 <body>
 <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="topnav" id="myTopnav">
 	<img src="Inovalogo.jpg" class="logo" alt="picture of logo">
@@ -22,10 +22,57 @@
   </a>
 </div>
 
-<h1 id="forside-tittel">What is Inova?</h1>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="publikum.jpg" style="width:100%; height:100%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="konf2.png" style="width:100%; height:100%;">
+</div>
+
+<div class="mySlides fade">
+  <img src="oslokonf.jpg" style="width:100%; height:100%;">
+</div>
+</div>
+
+<h1 id="forside-tittel">About us</h1>
+
+<div>
+  <h2>Leader in frugal innovation</h2>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut. Delectus, quos corrupti accusantium excepturi at animi distinctio laborum quidem! 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, incidunt?</p>
+</div>
+
+<div>
+  <h2>Hosting the best innovation camps for you</h2>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut. Delectus, quos corrupti accusantium excepturi at animi distinctio laborum quidem! 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, incidunt?</p>
+</div>
+
+
+
+
 
 
 <script>
+  /* slideshowboks*/
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 3000); 
+}
+
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -36,10 +83,6 @@ function myFunction() {
   }
 }
 </script>
-
-
-
-
 
 </body>
 </html>
