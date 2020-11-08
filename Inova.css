@@ -4,7 +4,7 @@ html, body {
  margin:0;
 
 }
-
+/*forside*/
 .logo {
   float: left;
   width: 200px;
@@ -87,6 +87,7 @@ This class makes the topnav look good on small screens (display the links vertic
 
 
 }
+/*slutt på forside*/
 
 /* Schedule delen */
 
