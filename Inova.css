@@ -11,6 +11,7 @@ html, body {
   overflow: hidden;
   border-bottom: 2px solid black;
 
+
 }
 
 .logo {
@@ -52,9 +53,10 @@ html, body {
   text-align: center;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 600 pixels wide, hide all links,
+ except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .topnav a {display: none;}
+  .topnav a {display: none; text-align: center;}
   .topnav a.icon {
     float: right;
     display: block;
@@ -83,8 +85,11 @@ This class makes the topnav look good on small screens (display the links vertic
 
 /* Schedule delen */
 
+
+
 .table1 {
   width: 70%;
+  
 }
 
 .a {
@@ -111,7 +116,7 @@ This class makes the topnav look good on small screens (display the links vertic
 
 .skrifttype{
   font-family: "Times New Roman", Times, serif;
-  width: 70%;
+  width: 100%;
   margin-left: 10px;
 }
 
@@ -222,7 +227,7 @@ body {
   text-align: center;
   align-items: center;
 }
-#sectionHeader-text-center{
+.sectionHeader text-center{
   padding: 20px;
   font-weight: 500;
   font-size: 2rem;
