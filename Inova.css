@@ -149,17 +149,6 @@ This class makes the topnav look good on small screens (display the links vertic
 }
 
 
-<<<<<<< Updated upstream
-
-/*Our team*/
-hr{
-  width:40%;
-}
-=======
-
-
->>>>>>> Stashed changes
-
 
 /* FOOTER */
 .footer {
@@ -167,7 +156,6 @@ background: #808080;
 color: white;
 height: 400px;
 position: relative;
->>>>>>> 9cf3771caa4a64072b7ebbd37701a2da4a13cf61
 }
 
 
@@ -177,6 +165,7 @@ position: relative;
 hr {
   width: 50%;
 }
+
 .sectionHeader {
   padding: 20px;
   font-weight: 500;
@@ -184,11 +173,8 @@ hr {
 }
 
 .img-fluid {
-  object-fit: cover;
   width: 250px;
   height: 250px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-border-radius: 50%;
 }
 
 .center-img {
@@ -248,9 +234,6 @@ section {
   padding-top: 20px;
 }
 
-#container1{
-  padding-top: 70px;
-}
 
 h1,
 h2,
@@ -293,6 +276,15 @@ body {
   width: 82%;
 }
 
+#container1 {
+  padding: 20px 20px;
+  width: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 70px;
+}
+
 .font-weight-medium  {
   font-weight: 500;
 }
@@ -300,7 +292,7 @@ body {
 #hr1{
   border: 2px solid #d9b3ff;
   margin-left: 0px;
-  width: 25%;
+  width: 250px;
   margin-top: -13px;
 }
 
@@ -309,15 +301,6 @@ body {
   padding: 10px 170px;
 }
 
-.fade {
-  transition: all 0.5s ease-in;
-  transition-property: opacity, transform;
-}
-
-.fadeIn {
-  opacity: 1;
-  transform: translateY(0px);
-}
 .d-flex {
   display: flex;
 }
@@ -341,6 +324,11 @@ body {
 
 .container{
   margin-top: -20px;
+}
+
+div.container2 p-3{
+  width: 100px;
+  margin: auto;
 }
 
 
