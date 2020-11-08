@@ -179,18 +179,12 @@ hr {
   font-size: 2rem;
 }
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 .img-fluid {
   object-fit: cover;
   width: 250px;
   height: 250px;
-  display: block;
-<<<<<<< Updated upstream
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-
+border-radius: 50%;
 }
 
 .center-img {
@@ -199,23 +193,15 @@ hr {
   justify-content: center;
 }
 
-.rounded {
-  border-radius: 50%;
-}
-
 .teamHeader {
   padding: 5px 0;
   opacity: 0.6;
-  color: var(--blue);
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .teamName {
   padding: 10px 0;
   font-weight: 500;
-=======
-
->>>>>>> Stashed changes
 }
 
 .center-img {
@@ -254,17 +240,12 @@ hr {
   height:300px;
 }
 
-.mt-1 {
-  margin-top: 0.25rem !important;
-}
-
-.mt-4 {
-  margin-top: 1.5rem !important;
-}
-
-
 section {
-  padding-top: 15px;
+  padding-top: 20px;
+}
+
+#container1{
+  padding-top: 70px;
 }
 
 h1,
@@ -353,18 +334,14 @@ body {
   text-align: center;
 }
 
-.about-us{
-  width: 50%;
-  text-align: center;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
 
-}
 .container{
-  margin-top: 0px;
+  margin-top: -20px;
 }
 
+.container1{
+  margin-top: 20px;
+}
 
 
 
