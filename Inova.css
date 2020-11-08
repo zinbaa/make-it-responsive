@@ -63,10 +63,6 @@ html, body {
   margin-top: 0px;
 }
 
-#forside-tittel {
-  text-align: center;
-}
-
 .tekstforside {
   text-align: left;
   width: 50%;
@@ -149,11 +145,6 @@ This class makes the topnav look good on small screens (display the links vertic
 }
 
 
-/* Team */
-
-hr {
-  width: 40%;
-}
 
 /*Our team*/
 hr{
