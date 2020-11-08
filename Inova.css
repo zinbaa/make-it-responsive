@@ -46,7 +46,6 @@ html, body {
 .slideshow-container {
   max-width: 100%;
   margin-top: 0px;
-  
 }
 
 #forside-tittel {
@@ -96,4 +95,59 @@ This class makes the topnav look good on small screens (display the links vertic
 
 .a1 {
   height: 30px;
+}
+
+/*Our team*/
+hr{
+  width:40%;
+}
+
+#teamh1{
+  text-align: center;
+}
+
+.sectionHeader {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.img-fluid {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  display: block;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.center-img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.teamHeader {
+  padding: 5px 0;
+  opacity: 0.6;
+  color: var(--blue);
+  font-weight: 200;
+}
+
+.teamName {
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+.teamName::after {
+  content: ' ';
+  display: block;
+  width: 70px;
+  height: 1px;
+  margin: 10px 0 10px;
+  background: var(--blue);
+  opacity: 0.5;
 }
