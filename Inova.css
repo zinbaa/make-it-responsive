@@ -46,7 +46,7 @@ html, body {
 .slideshow-container {
   max-width: 100%;
   margin-top: 0px;
-  
+
 }
 
 #forside-tittel {
@@ -85,15 +85,42 @@ This class makes the topnav look good on small screens (display the links vertic
 /* Schedule delen */
 
 .table1 {
-  width: 100%;
-  background-color: #f2f2f2;
+  width: 70%;
 }
 
 .a {
   height: 70px;
+  background-color: #F8F8FF;
+  opacity: 0.7;
 
 }
 
 .a1 {
   height: 30px;
+  background-color: #E6E6FA;
+}
+
+.a2 {
+  height: 30px;
+}
+.a3 {
+  height: 30px;
+  background-color: #708090;
+}
+
+.a4 {
+  background-color: #D8BFD8;
+}
+
+.skrifttype{
+  font-family: "Times New Roman", Times, serif;
+  width: 70%;
+  margin-left: 10px;
+}
+
+.bilde1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.6;
 }
