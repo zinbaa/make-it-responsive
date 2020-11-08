@@ -68,8 +68,8 @@ html, body {
 }
 
 .tekstforside {
-  text-align: center;
-  width: ;
+  text-align: left;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
