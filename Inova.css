@@ -284,6 +284,7 @@ body {
   text-align: center;
   align-items: center;
 }
+
 .container {
   padding: 50px 50px;
 }
@@ -332,9 +333,13 @@ body {
 
 #about-us{
   width: 50%;
-  text-align: center
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
 }
-.container1{
+.container{
   margin-top: 0px;
 }
 
