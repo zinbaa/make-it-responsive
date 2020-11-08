@@ -125,8 +125,7 @@ This class makes the topnav look good on small screens (display the links vertic
 /* Team */
 
 hr {
-  width: 20%;
-  border: var(--border);
+  width: 40%;
 }
 .sectionHeader {
   padding: 20px;
