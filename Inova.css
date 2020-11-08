@@ -63,10 +63,6 @@ html, body {
   margin-top: 0px;
 }
 
-#forside-tittel {
-  text-align: center;
-}
-
 .tekstforside {
   text-align: left;
   width: 50%;
@@ -153,27 +149,36 @@ This class makes the topnav look good on small screens (display the links vertic
 }
 
 
-/* Team */
 
-hr {
-  width: 40%;
-}
 
 /*Our team*/
 hr{
   width:40%;
 }
 
-#teamh1{
-  text-align: center;
+
+
+/* FOOTER */
+.footer {
+background: #808080;
+color: white;
+height: 400px;
+position: relative;
+
 }
 
+
+
+/* Team */
+
+hr {
+  width: 50%;
+}
 .sectionHeader {
   padding: 20px;
   font-weight: 500;
   font-size: 2rem;
 }
-
 
 .img-fluid {
   object-fit: cover;
@@ -204,6 +209,7 @@ hr{
 .teamName {
   padding: 10px 0;
   font-weight: 500;
+
 }
 
 .center-img {
@@ -234,7 +240,6 @@ hr{
   width: 70px;
   height: 1px;
   margin: 10px 0 10px;
-  background: var(--blue);
   opacity: 0.5;
 }
 
@@ -253,7 +258,7 @@ hr{
 
 
 section {
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 h1,
@@ -273,9 +278,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif !important;
-  font-family: var(--font);
-  color: var(--text-on-bg);
-  background-color: var(--bg);
   overflow-x: hidden;
 }
 
@@ -290,16 +292,25 @@ body {
   text-align: center;
   align-items: center;
 }
+
 .container {
   padding: 50px 50px;
 }
 
 .row {
   padding: 20px 20px;
+  width: 82%;
 }
 
-.font-weight-medium {
+.font-weight-medium  {
   font-weight: 500;
+}
+
+#hr1{
+  border: 2px solid #d9b3ff;
+  margin-left: 0px;
+  width: 25%;
+  margin-top: -13px;
 }
 
 .col-sm-12
@@ -336,11 +347,15 @@ body {
   text-align: center;
 }
 
-#about-us{
+.about-us{
   width: 50%;
-  text-align: center
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
 }
-.container1{
+.container{
   margin-top: 0px;
 }
 
@@ -363,7 +378,7 @@ display: flex;
 
 .footer .footer-content .footer-section {
 flex: 1;
-padding 25px;
+padding: 25px;
 text-align: center;
 }
 
@@ -437,7 +452,6 @@ flex-direction: column;
 .footer .footer-content .links{
 padding-bottom: 90px;
 }
-
 
 }
 
