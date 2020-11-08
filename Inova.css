@@ -145,16 +145,13 @@ This class makes the topnav look good on small screens (display the links vertic
 }
 
 
-<<<<<<< Updated upstream
+
 
 /*Our team*/
 hr{
   width:40%;
 }
-=======
 
-
->>>>>>> Stashed changes
 
 
 /* FOOTER */
@@ -163,7 +160,7 @@ background: #808080;
 color: white;
 height: 400px;
 position: relative;
->>>>>>> 9cf3771caa4a64072b7ebbd37701a2da4a13cf61
+
 }
 
 
@@ -179,16 +176,11 @@ hr {
   font-size: 2rem;
 }
 
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 .img-fluid {
   object-fit: cover;
   width: 250px;
   height: 250px;
   display: block;
-<<<<<<< Updated upstream
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 
 }
@@ -213,9 +205,7 @@ hr {
 .teamName {
   padding: 10px 0;
   font-weight: 500;
-=======
 
->>>>>>> Stashed changes
 }
 
 .center-img {
@@ -264,7 +254,7 @@ hr {
 
 
 section {
-  padding-top: 15px;
+  padding-top: 40px;
 }
 
 h1,
