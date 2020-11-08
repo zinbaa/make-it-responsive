@@ -149,13 +149,16 @@ This class makes the topnav look good on small screens (display the links vertic
 }
 
 
-
+<<<<<<< Updated upstream
 
 /*Our team*/
 hr{
   width:40%;
 }
+=======
 
+
+>>>>>>> Stashed changes
 
 
 /* FOOTER */
@@ -164,7 +167,7 @@ background: #808080;
 color: white;
 height: 400px;
 position: relative;
-
+>>>>>>> 9cf3771caa4a64072b7ebbd37701a2da4a13cf61
 }
 
 
@@ -184,9 +187,8 @@ hr {
   object-fit: cover;
   width: 250px;
   height: 250px;
-  display: block;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
-
+border-radius: 50%;
 }
 
 .center-img {
@@ -195,21 +197,15 @@ hr {
   justify-content: center;
 }
 
-.rounded {
-  border-radius: 50%;
-}
-
 .teamHeader {
   padding: 5px 0;
   opacity: 0.6;
-  color: var(--blue);
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .teamName {
   padding: 10px 0;
   font-weight: 500;
-
 }
 
 .center-img {
@@ -248,17 +244,12 @@ hr {
   height:300px;
 }
 
-.mt-1 {
-  margin-top: 0.25rem !important;
-}
-
-.mt-4 {
-  margin-top: 1.5rem !important;
-}
-
-
 section {
-  padding-top: 40px;
+  padding-top: 20px;
+}
+
+#container1{
+  padding-top: 70px;
 }
 
 h1,
@@ -293,7 +284,7 @@ body {
   align-items: center;
 }
 
-.container {
+#container {
   padding: 50px 50px;
 }
 
@@ -347,18 +338,14 @@ body {
   text-align: center;
 }
 
-.about-us{
-  width: 50%;
-  text-align: center;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
 
-}
 .container{
-  margin-top: 0px;
+  margin-top: -20px;
 }
 
+.container1{
+  margin-top: 20px;
+}
 
 
 
@@ -378,7 +365,7 @@ display: flex;
 
 .footer .footer-content .footer-section {
 flex: 1;
-padding: 25px;
+padding 25px;
 text-align: center;
 }
 
@@ -452,6 +439,7 @@ flex-direction: column;
 .footer .footer-content .links{
 padding-bottom: 90px;
 }
+
 
 }
 
