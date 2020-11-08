@@ -25,20 +25,20 @@
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="publikum.jpg" style="width:100%; height:100%;">
+  <img src="publikum.jpg" alt="picture of audience" style="width:100%; height:100%;">
 </div>
 
 <div class="mySlides fade">
-  <img src="konf2.png" style="width:100%; height:100%;">
+  <img src="konf2.png" alt="picture of a conference" style="width:100%; height:100%;">
 </div>
 
 <div class="mySlides fade">
-  <img src="oslokonf.jpg" style="width:100%; height:100%;">
+  <img src="oslokonf.jpg" alt="picture of a conference" style="width:100%; height:100%;">
 </div>
 </div>
 
-<h1 id="forside-tittel">About us</h1>
-
+<h1 class="sectionHeader text-center">About us</h1>
+<hr>
 <div>
   <h2>Leader in frugal innovation</h2>
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, aut. Delectus, quos corrupti accusantium excepturi at animi distinctio laborum quidem! 
@@ -65,11 +65,11 @@ function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; 
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1} 
-  slides[slideIndex-1].style.display = "block"; 
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 3000); 
 }
 
