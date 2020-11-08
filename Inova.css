@@ -4,6 +4,17 @@ html, body {
  margin:0;
 
 }
+<<<<<<< HEAD
+=======
+/*forside*/
+.logo {
+  float: left;
+  width: 200px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding:10px;
+}
+>>>>>>> 3006cb41905197e8eadc6fd9f84a5d16e252ee7e
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -85,6 +96,7 @@ This class makes the topnav look good on small screens (display the links vertic
 
 
 }
+/*slutt på forside*/
 
 /* Schedule delen */
 
