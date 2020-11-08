@@ -56,7 +56,7 @@ html, body {
 <<<<<<< HEAD
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 =======
-/* When the screen is less than 600 pixels wide, hide all links, except for 
+/* When the screen is less than 600 pixels wide, hide all links, except for
 the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 >>>>>>> 9cf3771caa4a64072b7ebbd37701a2da4a13cf61
 @media screen and (max-width: 600px) {
@@ -141,6 +141,7 @@ hr {
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
 /*Our team*/
 hr{
   width:40%;
@@ -188,16 +189,9 @@ hr{
   padding: 10px 0;
   font-weight: 500;
 }
+=======
+>>>>>>> 962d41636aaf1b9b157c849153d7197e4ea47250
 
-.teamName::after {
-  content: ' ';
-  display: block;
-  width: 70px;
-  height: 1px;
-  margin: 10px 0 10px;
-  background: var(--blue);
-  opacity: 0.5;
-}
 
 
 
