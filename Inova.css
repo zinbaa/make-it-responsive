@@ -68,8 +68,8 @@ html, body {
 }
 
 .tekstforside {
-  text-align: center;
-  width: ;
+  text-align: left;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -154,12 +154,6 @@ This class makes the topnav look good on small screens (display the links vertic
 hr {
   width: 40%;
 }
-.sectionHeader {
-  padding: 20px;
-  font-weight: 500;
-  font-size: 2rem;
-}
-
 
 /*Our team*/
 hr{
@@ -245,6 +239,14 @@ hr{
   height:300px;
 }
 
+.mt-1 {
+  margin-top: 0.25rem !important;
+}
+
+.mt-4 {
+  margin-top: 1.5rem !important;
+}
+
 
 section {
   padding-top: 20px;
@@ -272,11 +274,7 @@ body {
   background-color: var(--bg);
   overflow-x: hidden;
 }
-.sectionHeader {
-  padding: 20px;
-  font-weight: 500;
-  font-size: 2rem;
-}
+
 .text-center {
   text-align: center;
   align-items: center;
@@ -289,7 +287,7 @@ body {
   align-items: center;
 }
 .container {
-  padding: 20px 50px;
+  padding: 50px 50px;
 }
 
 .row {
@@ -303,6 +301,23 @@ body {
 .col-sm-12
 .col-sm-6 {
   padding: 10px 170px;
+}
+
+.fade {
+  transition: all 0.5s ease-in;
+  transition-property: opacity, transform;
+}
+
+.fadeIn {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.d-flex {
+  display: flex;
+}
+
+.p-3 {
+  padding: 1rem !important;
 }
 
 .d-flex {
