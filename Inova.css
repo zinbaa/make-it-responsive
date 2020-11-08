@@ -67,13 +67,15 @@ html, body {
   text-align: center;
 }
 
-
 .tekstforside {
+  text-align: center;
+  width: ;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  bottom: 2px solid black;
 }
+
+
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home").
