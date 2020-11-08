@@ -145,28 +145,50 @@ This class makes the topnav look good on small screens (display the links vertic
 }
 
 
+<<<<<<< Updated upstream
 
 /*Our team*/
 hr{
   width:40%;
 }
+=======
 
-#teamh1{
-  text-align: center;
+
+>>>>>>> Stashed changes
+
+
+/* FOOTER */
+.footer {
+background: #808080;
+color: white;
+height: 400px;
+position: relative;
+>>>>>>> 9cf3771caa4a64072b7ebbd37701a2da4a13cf61
 }
 
+
+
+/* Team */
+
+hr {
+  width: 50%;
+}
 .sectionHeader {
   padding: 20px;
   font-weight: 500;
   font-size: 2rem;
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 .img-fluid {
   object-fit: cover;
   width: 250px;
   height: 250px;
   display: block;
+<<<<<<< Updated upstream
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
 
 }
@@ -191,6 +213,9 @@ hr{
 .teamName {
   padding: 10px 0;
   font-weight: 500;
+=======
+
+>>>>>>> Stashed changes
 }
 
 .center-img {
@@ -221,7 +246,6 @@ hr{
   width: 70px;
   height: 1px;
   margin: 10px 0 10px;
-  background: var(--blue);
   opacity: 0.5;
 }
 
@@ -240,7 +264,7 @@ hr{
 
 
 section {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 h1,
@@ -260,9 +284,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif !important;
-  font-family: var(--font);
-  color: var(--text-on-bg);
-  background-color: var(--bg);
   overflow-x: hidden;
 }
 
@@ -284,10 +305,18 @@ body {
 
 .row {
   padding: 20px 20px;
+  width: 82%;
 }
 
-.font-weight-medium {
+.font-weight-medium  {
   font-weight: 500;
+}
+
+#hr1{
+  border: 2px solid #d9b3ff;
+  margin-left: 0px;
+  width: 25%;
+  margin-top: -13px;
 }
 
 .col-sm-12
@@ -324,7 +353,7 @@ body {
   text-align: center;
 }
 
-#about-us{
+.about-us{
   width: 50%;
   text-align: center;
   display: block;
