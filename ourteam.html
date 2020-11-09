@@ -22,21 +22,6 @@
   </a>
 </div>
 
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <img src="publikum.jpg" alt="picture of audience" style="width:100%; height:100%;">
-</div>
-
-<div class="mySlides fade">
-  <img src="konf2.png" alt="picture of a conference" style="width:100%; height:100%;">
-</div>
-
-<div class="mySlides fade">
-  <img src="oslokonf.jpg" alt="picture of a conference" style="width:100%; height:100%;">
-</div>
-</div>
-
 <section id="container1">
 	<h2 class="sectionHeader">About us</h2>
 	<hr>
@@ -150,39 +135,6 @@
 		&copy; Inova 2020 | All rights reserved.
 	</div>
 </div>
-
-
-
-
-<script>
-	 /* slideshowboks*/
-  var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3000);
-}
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-    document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-  }
-   else {
-    x.className = "topnav";
-  }
-}
-</script>
 
 </body>
 </html>
