@@ -11,6 +11,7 @@ html, body {
   padding-bottom: 10px;
   padding-top: 5px;
   padding:10px;
+  background-color: white;
 }
 
 
@@ -132,11 +133,11 @@ This class makes the topnav look good on small screens (display the links vertic
 }
 
 .skrifttype{
-  font-family: "Times New Roman", Times, serif;
+  font-family: ;
   width: 70%;
   text-align: left;
   margin: auto;
-  font-size: 2vw;
+  font-size: 1.5vw;
 
 }
 
