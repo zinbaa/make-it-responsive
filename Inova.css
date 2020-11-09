@@ -30,8 +30,9 @@ html, body {
 .logo {
   float: left;
   width: 200px;
-  padding-bottom: 10px;
-  padding-top: 5px;
+  background-color: white;
+
+  
 }
 
 /* Style the links inside the navigation bar */
@@ -48,8 +49,8 @@ html, body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  color: purple;
+  font-size: 20px;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -77,6 +78,7 @@ Show the link that contains should open and close the topnav (.icon) */
   .topnav a.icon {
     float: right;
     display: block;
+    top: 0;
   }
 }
 
@@ -94,6 +96,7 @@ This class makes the topnav look good on small screens (display the links vertic
     float: none;
     display: block;
     text-align: left;
+    
   }
 }
 /*slutt på forside*/
@@ -131,7 +134,7 @@ This class makes the topnav look good on small screens (display the links vertic
 .skrifttype{
   font-family: "Times New Roman", Times, serif;
   width: 70%;
-  text-align: center;
+  text-align: left;
   margin: auto;
   font-size: 2vw;
 
