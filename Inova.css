@@ -4,6 +4,7 @@ html, body {
  margin:0;
 }
 
+/*forside*/
 .logo {
   float: left;
   width: 200px;
@@ -11,6 +12,7 @@ html, body {
   padding-top: 5px;
   padding:10px;
 }
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -21,7 +23,15 @@ html, body {
   top: 0;
   width: 100%;
   border-bottom: 2px solid black;
+  z-index: 1;
 
+}
+
+.logo {
+  float: left;
+  width: 200px;
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
 
 /* Style the links inside the navigation bar */
@@ -30,7 +40,7 @@ html, body {
   display: block;
   color: black;
   text-align: center;
-  padding: 26px 17px;
+  padding: 24px 17px;
   text-decoration: none;
   font-size: 17px;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -50,14 +60,18 @@ html, body {
 .slideshow-container {
   max-width: 100%;
   margin-top: 0px;
-
 }
 
-#forside-tittel {
-  text-align: center;
+.tekstforside {
+  text-align: left;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home").
+Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
   .topnav a {display: none;}
   .topnav a.icon {
@@ -74,31 +88,29 @@ This class makes the topnav look good on small screens (display the links vertic
     position: absolute;
     right: 0;
     top: 0;
-
-
+    display: block;
   }
   .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
-
-
 }
+/*slutt på forside*/
+
+
 
 /* Schedule delen */
 
 .table1 {
-  width: 70%;
+  margin: auto;
 }
 
 .a {
   height: 70px;
   background-color: #F8F8FF;
   opacity: 0.7;
-
 }
-
 .a1 {
   height: 30px;
   background-color: #E6E6FA;
@@ -119,18 +131,207 @@ This class makes the topnav look good on small screens (display the links vertic
 .skrifttype{
   font-family: "Times New Roman", Times, serif;
   width: 70%;
-  margin-left: 10px;
+  text-align: center;
+  margin: auto;
+  font-size: 2vw;
+
 }
 
-.bilde1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+@@media only screen and (min-width:769px) {
+  .schedule {
+    display: block;
+    width: 100%;
+
+  }
+
+}
+
+
+
+/* FOOTER */
+.footer {
+background: #808080;
+color: white;
+height: 400px;
+position: relative;
+}
+
+
+
+/* Team */
+
+hr {
+  width: 50%;
+}
+
+.sectionHeader {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.img-fluid {
+  width: 250px;
+  height: 250px;
+}
+
+.center-img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.teamHeader {
+  padding: 5px 0;
   opacity: 0.6;
+  font-weight: 300;
 }
-.page-wrapper {
-min-height: 100%
+
+.teamName {
+  padding: 10px 0;
+  font-weight: 500;
 }
+
+.center-img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.teamHeader {
+  padding: 5px 0;
+  opacity: 0.7;
+  color: #b366ff;
+  font-weight: 350;
+}
+
+.teamName {
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+.teamName::after {
+  content: ' ';
+  display: block;
+  width: 70px;
+  height: 1px;
+  margin: 10px 0 10px;
+  opacity: 0.5;
+}
+
+.container img{
+  width:270px;
+  height:300px;
+}
+
+section {
+  padding-top: 20px;
+}
+
+
+h1,
+h2,
+h3,
+ {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font);
+}
+
+p {
+  margin-top: 5px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif !important;
+  overflow-x: hidden;
+}
+
+.text-center {
+  text-align: center;
+  align-items: center;
+}
+.sectionHeader text-center{
+  padding: 20px;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
+}
+
+.container {
+  padding: 50px 50px;
+}
+
+.row {
+  padding: 20px 20px;
+  width: 82%;
+}
+
+#container1 {
+  padding: 20px 20px;
+  width: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 70px;
+}
+
+.font-weight-medium  {
+  font-weight: 500;
+}
+
+#hr1{
+  border: 2px solid #d9b3ff;
+  margin-left: 0px;
+  width: 250px;
+  margin-top: -13px;
+}
+
+.col-sm-12
+.col-sm-6 {
+  padding: 10px 170px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+#meetTeamh1{
+  text-align: center;
+}
+
+
+.container{
+  margin-top: -20px;
+}
+
+div.container2 p-3{
+  width: 100px;
+  margin: auto;
+}
+
+
+
 
 /* FOOTER */
 .footer {
@@ -225,3 +426,4 @@ padding-bottom: 90px;
 
 }
 
+/* slutt på FOOTER*/
