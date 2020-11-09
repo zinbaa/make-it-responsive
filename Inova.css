@@ -139,7 +139,7 @@ This class makes the topnav look good on small screens (display the links vertic
 }
 
 
-@@media only screen and (min-width:769px) {
+@media only screen and (min-width:769px) {
   .schedule {
     display: block;
     width: 100%;
@@ -162,46 +162,32 @@ position: relative;
 
 /* Team */
 
+.parent{
+  display: flex;
+}
+.left-child{
+  width: 50%;
+  display: inline-block;
+  align-content: center;
+
+}
+.right-child{
+  width: 50%;
+  display: inline-block;
+}
+
 hr {
   width: 50%;
+  margin-bottom: 50px;
 }
 
 .sectionHeader {
   padding: 20px;
-  font-weight: 500;
-  font-size: 2rem;
-}
-
-.img-fluid {
-  width: 250px;
-  height: 250px;
-}
-
-.center-img {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.teamHeader {
-  padding: 5px 0;
-  opacity: 0.6;
   font-weight: 300;
-}
-
-.teamName {
-  padding: 10px 0;
-  font-weight: 500;
-}
-
-.center-img {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-}
-
-.rounded {
-  border-radius: 50%;
+  font-size: 2rem;
+  margin-top:10px;
+  text-align: center;
+  align-items: center;
 }
 
 .teamHeader {
@@ -214,26 +200,18 @@ hr {
 .teamName {
   padding: 10px 0;
   font-weight: 500;
-}
-
-.teamName::after {
-  content: ' ';
-  display: block;
-  width: 70px;
-  height: 1px;
   margin: 10px 0 10px;
-  opacity: 0.5;
 }
 
 .container img{
   width:270px;
-  height:300px;
+  margin: 0 calc(50% - 135px);
+  height:auto;
 }
 
 section {
   padding-top: 20px;
 }
-
 
 h1,
 h2,
@@ -241,7 +219,6 @@ h3,
  {
   padding: 0;
   margin: 0;
-  font-family: var(--font);
 }
 
 p {
@@ -253,18 +230,6 @@ body {
   padding: 0;
   font-family: 'Inter', sans-serif !important;
   overflow-x: hidden;
-}
-
-.text-center {
-  text-align: center;
-  align-items: center;
-}
-.sectionHeader text-center{
-  padding: 20px;
-  font-weight: 500;
-  font-size: 2rem;
-  text-align: center;
-  align-items: center;
 }
 
 .container {
@@ -285,7 +250,7 @@ body {
   padding-top: 70px;
 }
 
-.font-weight-medium  {
+.about-usTittel  {
   font-weight: 500;
 }
 
@@ -294,44 +259,35 @@ body {
   margin-left: 0px;
   width: 250px;
   margin-top: -13px;
-}
-
-.col-sm-12
-.col-sm-6 {
-  padding: 10px 170px;
-}
-
-.d-flex {
-  display: flex;
+  margin-bottom: 10px;
 }
 
 .p-3 {
   padding: 1rem !important;
 }
-
-.d-flex {
-  display: flex;
-}
-
-.p-3 {
-  padding: 1rem !important;
-}
-
-#meetTeamh1{
-  text-align: center;
-}
-
 
 .container{
-  margin-top: -20px;
+  margin-top: -50px;
 }
 
-div.container2 p-3{
-  width: 100px;
-  margin: auto;
+@media only screen and (max-width: 780px){
+  .left-child{
+    display: block;
+    width: 100%;
+    padding: 2%;
+  }
+  .right-child{
+    display: block;
+    width: 100%;
+  }
+  .left-child img{
+    margin: auto;
+  }
+  .parent{
+    display: block;
+    align-content: center;
+  }
 }
-
-
 
 
 /* FOOTER */
@@ -381,7 +337,7 @@ p.social-media {
 p.social-media a {
   margin: 0 10px 0 0;
   color: white;
-  background-color: purple;
+  background-color: #b366ff;
   display: inline-block;
   width: 40px;
   height: 40px;
