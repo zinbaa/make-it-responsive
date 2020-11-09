@@ -2,6 +2,7 @@ html, body {
  height:100%;
  padding:0;
  margin:0;
+
 }
 
 /*forside*/
@@ -11,7 +12,6 @@ html, body {
   padding-bottom: 10px;
   padding-top: 5px;
   padding:10px;
-  background-color: white;
 }
 
 
@@ -31,9 +31,8 @@ html, body {
 .logo {
   float: left;
   width: 200px;
-  background-color: white;
-
-
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
 
 /* Style the links inside the navigation bar */
@@ -50,8 +49,8 @@ html, body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  color: purple;
-  font-size: 20px;
+  background-color: #ddd;
+  color: black;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -79,7 +78,6 @@ Show the link that contains should open and close the topnav (.icon) */
   .topnav a.icon {
     float: right;
     display: block;
-    top: 0;
   }
 }
 
@@ -97,7 +95,6 @@ This class makes the topnav look good on small screens (display the links vertic
     float: none;
     display: block;
     text-align: left;
-
   }
 }
 /*slutt på forside*/
@@ -133,11 +130,11 @@ This class makes the topnav look good on small screens (display the links vertic
 }
 
 .skrifttype{
-  font-family: ;
+  font-family: "Times New Roman", Times, serif;
   width: 70%;
-  text-align: left;
+  text-align: center;
   margin: auto;
-  font-size: 1.5vw;
+  font-size: 2vw;
 
 }
 
@@ -150,6 +147,18 @@ This class makes the topnav look good on small screens (display the links vertic
   }
 
 }
+
+
+
+/* FOOTER */
+.footer {
+background: #808080;
+color: white;
+height: 400px;
+position: relative;
+}
+
+
 
 /* Team */
 
@@ -180,7 +189,41 @@ hr {
   text-align: center;
   align-items: center;
 }
+.center-img {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.sectionHeader {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 2rem;
+}
 
+.img-fluid {
+  width: 250px;
+  height: 250px;
+}
+.col-sm-12
+.col-sm-6 {
+  padding: 10px 170px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.p-3 {
+  padding: 1rem !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.center-img {
+  margin: auto;
+}
 .teamHeader {
   padding: 5px 0;
   opacity: 0.7;
@@ -248,7 +291,7 @@ body {
 #hr1{
   border: 2px solid #d9b3ff;
   margin-left: 0px;
-  width: 40%;
+  width: 100%;
   margin-top: -13px;
   margin-bottom: 10px;
 }
@@ -261,7 +304,7 @@ body {
   margin-top: -50px;
 }
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 600px){
   .left-child{
     display: block;
     width: 100%;
@@ -278,7 +321,58 @@ body {
     display: block;
     align-content: center;
   }
+  hr {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  .sectionHeader {
+    padding: 0px;
+    font-weight: 300;
+    font-size: 2rem;
+    margin-top:20px;
+    text-align: center;
+    align-items: center;
+  }
+  #info{
+    margin: auto;
+    padding: auto;
+    position: center;
+    width: 100%;
+  }
+  h3.mt-4.font-weight-medium{
+    width:100%;
+  }
+  .container2.p-3{
+    margin: 0 calc(50% - 170px);
+    height:auto;
+    position: center;
+  }
 }
+
+/*@media only screen and (max-width: 734){
+
+  .container p-3{
+    display: block;
+    width: 100%;
+    padding: 2%;
+  }
+  .right-child{
+    display: block;
+    width: 100%;
+  }
+  .left-child img{
+    margin: auto;
+  }
+  .parent{
+    display: block;
+    align-content: center;
+  }
+}*/
+
+
+
+
 
 
 /* FOOTER */
@@ -304,7 +398,7 @@ text-align: center;
 .footer .footer-content h2,
 .footer .footer-content h3 {
 color: black;
-font-size: 1.5em;
+font-size: 2em;
 text-align: center;
 }
 
